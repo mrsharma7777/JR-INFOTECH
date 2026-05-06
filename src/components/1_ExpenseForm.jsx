@@ -14,7 +14,7 @@ const ExpenseForm = ({ userData, setUserData }) => {
   const [totalDebit, setTotalDebit] = useState(0); // Store total debit
   const [totalCredit, setTotalCredit] = useState(0); // Store total credit
 
-  // Fetch all distinct names from the backend on component mount
+  // Fetch all distinct names from the backend on component
   useEffect(() => {
     const fetchNames = async () => {
       try {
