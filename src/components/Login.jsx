@@ -278,7 +278,7 @@ const LoginSignup = ({ onLogin }) => {
     }
   };
 
-  // Function to navigate to the UserLogin page
+  // Function to navigate to the UserLogin pages
   const goToUserLogin = () => {
     navigate('/user-login'); // Make sure the route to UserLogin is defined in your Router
   };
