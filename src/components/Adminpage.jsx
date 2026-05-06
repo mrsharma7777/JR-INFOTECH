@@ -46,7 +46,7 @@ const AdminLogin = () => {
   }, [userData]);
 
   const handleLogout = () => {
-    navigate('/login'); // Redirect to login page on logouts
+    navigate('/login'); // Redirect to login page on logout
   };
 
   const handleLogin = async (e) => {
